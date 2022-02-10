@@ -6,11 +6,6 @@ public class Main {
         double breedte;
         double diepte;
 
-        @Override
-        public String toString() {
-            return "Dit zwembad is " + breedte + " meter breed, " + lengte + " meter lang, en " + diepte + " meter diep";
-        }
-
         public Zwembad() {
         }
 
@@ -46,6 +41,11 @@ public class Main {
 
         public void setDiepte(double diepte) {
             this.diepte = diepte;
+        }
+
+        @Override
+        public String toString() {
+            return "Dit zwembad is " + breedte + " meter breed, " + lengte + " meter lang, en " + diepte + " meter diep";
         }
     }
 
