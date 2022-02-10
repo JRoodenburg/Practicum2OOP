@@ -1,2 +1,3 @@
-# Practicum2OOP
-## This is a school assignment made for the OOP2 class.
+# Practicum 2 OOP
+## This is a school assignment made for the Object Oriented Programming class.
+
